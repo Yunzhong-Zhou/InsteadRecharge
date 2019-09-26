@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:hjm="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <com.hjm.bottomtabbar.BottomTabBar
+        android:id="@+id/bottom_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        hjm:tab_bar_background="@color/white"
+        hjm:tab_font_size="10px"
+        hjm:tab_img_height="22px"
+        hjm:tab_img_width="22px"
+        hjm:tab_padding_bottom="2px"
+        hjm:tab_padding_top="4px"
+        hjm:tab_selected_color="@color/tab_red"
+        hjm:tab_unselected_color="@color/tab_black" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    &lt;!&ndash;阴影 偏移量&ndash;&gt;
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="3dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp" />
+            &lt;!&ndash;<solid android:color="#267AA2F0" />&ndash;&gt;
+            <gradient
+                android:angle="270"
+                android:centerY="1"
+                android:centerColor="#7AA2F0"
+                android:endColor="#7AA2F0"
+                android:startColor="#ACACAD" />
+            <corners android:radius="5dp" />
+        </shape>
+    </item>
+
+    &lt;!&ndash;中心背景 &ndash;&gt;
+    <item>
+        <shape
+            android:shape="rectangle"
+            android:useLevel="false">
+            <solid
+                android:color="@color/white" />
+            &lt;!&ndash;圆角&ndash;&gt;
+            <corners
+                android:bottomLeftRadius="10dp"
+                android:bottomRightRadius="10dp"
+                android:topLeftRadius="10dp"
+                android:topRightRadius="10dp" />
+            &lt;!&ndash;边框&ndash;&gt;
+            <stroke
+                android:width="1dp"
+                android:color="#ACACAD" />
+
+        </shape>
+    </item>
+
+
+</layer-list>-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid
+        android:color="@color/transparent" />
+    <!--圆角-->
+    <corners
+        android:bottomLeftRadius="5dp"
+        android:bottomRightRadius="5dp"
+        android:topLeftRadius="5dp"
+        android:topRightRadius="5dp" />
+    <!--边框-->
+    <stroke
+        android:width="1dp"
+        android:color="#ACACAD" />
+</shape>
+
